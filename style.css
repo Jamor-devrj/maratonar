@@ -6,7 +6,8 @@
 body {
     /* Define a fonte padrão */
     font-family: "Chakra Petch", sans-serif;      
-    background-image: url(/assets/fundo.jpg) ; 
+    background-image: url(/assets/fundo.jpg);
+    background-size: auto; 
     /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
