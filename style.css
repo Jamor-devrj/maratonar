@@ -20,7 +20,7 @@ body {
 /* Estiliza os títulos h1 */
 
 header{
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 img {   
     width: 25rem;
@@ -66,7 +66,7 @@ section button:hover {
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     margin-top: 0%;
-    width: 70rem; /* Largura máxima da caixa de resultados */
+    width: 60rem; /* Largura máxima da caixa de resultados */
     height: 35vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
@@ -129,14 +129,14 @@ footer {
     }
     .resultados-pesquisa {
         width: 45rem; /* Largura da caixa de resultados em telas menores */
-        height: 4vh; /* Altura da caixa de resultados em telas menores */
+        height: 30vh; /* Altura da caixa de resultados em telas menores */
     }
     .item-resultado h2 {
         font-size: 1.6rem; /* Tamanho da fonte dos títulos em telas menores */
     }
 }
 @media (max-width: 768px) {
-    }
+    
     h1 {
         font-size: 2rem; /* Tamanho da fonte em telas menores */
         letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
@@ -146,7 +146,7 @@ footer {
         padding: 0.8rem; /* Espaçamento interno em telas menores */
     }
     .resultados-pesquisa {
-        width: 40rem; /* Largura da caixa de resultados em telas menores */
+        width: 38rem; /* Largura da caixa de resultados em telas menores */
         height: 27vh; /* Altura da caixa de resultados em telas menores */
     }
 
