@@ -24,6 +24,7 @@ header{
 }
 img {   
     width: 30rem;
+    margin-bottom: 0rem;
 }
 
 /* Estiliza as seções da página */
@@ -66,9 +67,9 @@ section button:hover {
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 70rem; /* Largura máxima da caixa de resultados */
-    height: 35vh; /* Altura máxima da caixa de resultados */
+    height: 3vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    margin-top: 0.8rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
 }
@@ -128,7 +129,7 @@ footer {
     }
     .resultados-pesquisa {
         width: 45rem; /* Largura da caixa de resultados em telas menores */
-        height: 45vh; /* Altura da caixa de resultados em telas menores */
+        height: 40vh; /* Altura da caixa de resultados em telas menores */
     }
     .item-resultado h2 {
         font-size: 1.6rem; /* Tamanho da fonte dos títulos em telas menores */
@@ -146,7 +147,7 @@ footer {
     }
     .resultados-pesquisa {
         width: 40rem; /* Largura da caixa de resultados em telas menores */
-        height: 40vh; /* Altura da caixa de resultados em telas menores */
+        height: 27vh; /* Altura da caixa de resultados em telas menores */
     }
 
     .item-resultado h2 {
