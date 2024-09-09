@@ -36,15 +36,8 @@ function pesquisar(){
       `;
     }
   }
-/*
-  if(result == false){    
-    result = "<div class="item-resultado"><h2>Desculpa, não encontramos o que procura.</h2>  <p>Tente uma nova pesquisa</p></div>"
-  }*/
 
-
-  sector.innerHTML = result;
- 
-//**Essa foi a minha solução inicialmente**
+  sector.innerHTML = result; 
 
   if(!result){    
     sector.innerHTML = `
